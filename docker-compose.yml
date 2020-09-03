@@ -8,6 +8,6 @@ services:
         container_name: docker-standart-utilities-portainer
         restart: always
         ports:
-            - 9001:9000
+            - 8901:9000
         volumes: 
             - /var/run/docker.sock:/var/run/docker.sock
