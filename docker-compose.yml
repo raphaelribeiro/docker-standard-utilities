@@ -11,3 +11,9 @@ services:
             - 8901:9000
         volumes: 
             - /var/run/docker.sock:/var/run/docker.sock
+    swagger-editor:
+        image: swaggerapi/swagger-editor
+        container_name: docker-standart-utilities-swagger-editor
+        restart: always
+        ports:
+            - 8902:8080
